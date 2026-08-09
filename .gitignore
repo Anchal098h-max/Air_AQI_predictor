@@ -1,0 +1,87 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+myenv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Testing / cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Python build files
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Large datasets
+# =========================
+# Uncomment these if your dataset is large:
+# *.csv
+# *.xlsx
+# *.parquet
+
+# =========================
+# ML experiment outputs
+# =========================
+wandb/
+mlruns/
+runs/
+
+# =========================
+# Local generated files
+# =========================
+*.bak
