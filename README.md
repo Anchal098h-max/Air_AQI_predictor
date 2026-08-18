@@ -249,6 +249,8 @@ http://localhost:8000/redoc
 # 📤 Prediction Endpoint
 
 ## POST
+So now there are two processes.
+
 
 ```
 /api/v1/predict

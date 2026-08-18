@@ -3,7 +3,6 @@ from app.core.middleware import LoggingMiddleware
 from app.api.routes import router 
 from fastapi.responses import JSONResponse
 from app.core.exceptions import PredictionException 
-from app.services.model_loader import load_artifacts
 app = FastAPI (
     title= "Air Quality Prediction API" , 
     description = "Production-ready Air Quality  Predictor API using FastAPi" , 

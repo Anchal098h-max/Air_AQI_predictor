@@ -13,7 +13,7 @@ def predict_air_quality (data:PredictionRequest) -> PredictionResponse:
  try : 
         model, preprocessor = load_artifacts()
         logger.info( "Prediction Started")
-        df = pd.DataFrame( [ data.model_dump()]) # conveet the reqest into data frame 
+        df = pd.DataFrame([data.model_dump()]) # conveet the reqest into data frame 
         df.rename(columns={"PM2_5": "PM2.5"}, inplace=True)
         df = create_features(df)
         expected_columns  = EXPECTED_COLUMNS
